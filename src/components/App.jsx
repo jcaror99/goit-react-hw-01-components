@@ -1,5 +1,6 @@
+import "../index.css"
 import user from '../json/user.json'
-import Profile from '../components/Profile.jsx'
+import Profile from './Profile/Profile.jsx'
 
 export const App = () => {
   return (
