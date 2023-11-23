@@ -1,0 +1,23 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.12), 2px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.statList {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-content: center;
+}
+
+.item {
+  padding: 10px;
+}
