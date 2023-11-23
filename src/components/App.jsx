@@ -1,14 +1,15 @@
 import "../index.css"
 import user from '../json/user.json'
 import data from '../json/data.json'
+import friends from '../json/friends.json'
 import Profile from './Profile/Profile.jsx'
 import Statistics from "./Statistics/Statistics.jsx";
+import Friends from './Friends/Friends.jsx'
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -34,6 +35,11 @@ export const App = () => {
         <li>
           <Statistics
             stats={data}
+          />
+        </li>
+        <li>
+          <Friends
+            friends={friends}
           />
         </li>
       </ul>

@@ -1,0 +1,27 @@
+.isOnline {
+  background-color: green;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.isNotOnline {
+  background-color: red;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.12), 2px 1px 3px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  width: 300px;
+}
