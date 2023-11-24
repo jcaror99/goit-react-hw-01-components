@@ -4,8 +4,8 @@ const FriendListItem = ({ avatar, name, isOnline, id }) => {
 return (
     <li className={css.item} key={id}>
         <span className={isOnline ? css.isOnline : css.isNotOnline}></span>
-        <img class="avatar" src={avatar} alt={name}/>
-        <p class="name">{name}</p>
+        <img className="avatar" src={avatar} alt={name}/>
+        <p className="name">{name}</p>
     </li>
     )
 }

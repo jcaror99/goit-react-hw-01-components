@@ -2,9 +2,12 @@ import "../index.css"
 import user from '../json/user.json'
 import data from '../json/data.json'
 import friends from '../json/friends.json'
+import transactions from '../json/transactions.json'
+
 import Profile from './Profile/Profile.jsx'
 import Statistics from "./Statistics/Statistics.jsx";
 import Friends from './Friends/Friends.jsx'
+import TransactionHistory from "./TransactionHistory/TransactionHistory.jsx"
 
 export const App = () => {
   return (
@@ -40,6 +43,11 @@ export const App = () => {
         <li>
           <Friends
             friends={friends}
+          />
+        </li>
+        <li>
+          <TransactionHistory
+            items={transactions}
           />
         </li>
       </ul>
