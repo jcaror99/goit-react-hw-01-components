@@ -1,4 +1,6 @@
-const TransactionHistory = ({ items } ) => {
+import css from './TransactionHistory.css'
+
+const TransactionHistory = ({ items }) => {
     return (
         <table className="transactionHistory">
             <thead>
